@@ -8,13 +8,5 @@
       "src": "/(.*)",
       "dest": "/src/$1"
     }
-  ],
-  "build": {
-    "env": {
-      "NODE_ENV": "production"
-    },
-    "commands": {
-      "build": "npm run build"
-    }
-  }
+  ]
 }
